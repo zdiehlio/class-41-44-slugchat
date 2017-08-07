@@ -14,9 +14,8 @@
 
 ## Requirements  
 #### Configuration  
-* create a slugchat-backend directory 
-  * class-41-slugchat-backend-starter-code from the course repository
-* create a slugchat-fontend directory
+* create a copy of the slugchat-backend-starter-code to `/lab-<yourname>/slugchat-backend`
+* create a `/lab-<yourname>`/slugchat-fontend directory
 
 #### Feature Tasks  
 #### backend
