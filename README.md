@@ -15,7 +15,7 @@
 ## Requirements  
 #### Configuration  
 * create a slugchat-backend directory 
-  * Use your backend app with auth or the class-41 starter code
+  * class-41-slugchat-backend-starter-code from the course repository
 * create a slugchat-fontend directory
 
 #### Feature Tasks  
