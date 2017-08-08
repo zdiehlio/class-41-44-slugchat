@@ -1,5 +1,4 @@
-*.env
-.*.env
+
 db
 
 # Created by https://www.gitignore.io/api/osx,vim,node,redis,linux,windows
@@ -77,7 +76,7 @@ typings/
 .yarn-integrity
 
 # dotenv environment variables file
-.env
+
 
 
 ### OSX ###
