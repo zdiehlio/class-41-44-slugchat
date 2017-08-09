@@ -53,8 +53,8 @@ class App extends React.Component {
 }
 
 let mapStateToProps = (state) => ({
-  route: state.route,
   token: state.token,
+  route: state.route,
 })
 
 let mapDispatchToProps = (dispatch) => ({

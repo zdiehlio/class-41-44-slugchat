@@ -24,10 +24,9 @@
     "browser": true
   },
   "globals": {
-    "__API_URL__": true,
+    "__API_URI__": true,
     "__TITLE__": false,
-    "__DEBUG__": false,
-    "__GOOGLE_CLIENT_ID__": true
+    "__DEBUG__": false
   },
   "extends": [
     "eslint:recommended"
