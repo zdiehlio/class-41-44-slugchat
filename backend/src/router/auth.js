@@ -48,7 +48,7 @@ export default new Router()
   .catch(next)
 })
 .get('/usernames/:username', (req, res, next) => {
-  User.findOne({username: username})
+  User.findOne({username: req.params.username})
   .then(user => {
     if(!user)
       return res.sendStatus(200)
