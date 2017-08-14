@@ -10,7 +10,7 @@ import SignupContainer from '../signup-container'
 
 class App extends React.Component {
   componentDidMount(){
-    let token = util.cookieFetch('X-Slugchat-Token')
+    let token = util.cookieFetch('X-Mythicchat-Token')
     if(token)
       this.props.login(token)
   }

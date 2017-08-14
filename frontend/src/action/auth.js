@@ -7,7 +7,7 @@ export const login = (token) => ({
 })
 
 export const logout = () => {
-  util.cookieDelete('X-Slugchat-Token')
+  util.cookieDelete('X-Mythicchat-Token')
   return  { type: 'LOGOUT'}
 }
 
@@ -16,7 +16,7 @@ export const loginRequest = (user) => (dispatch) => {
     .withCredentials()
     .auth(user.username, user.password)
     .then(res => {
-      let token = util.cookieFetch('X-Slugchat-Token')
+      let token = util.cookieFetch('X-Mythicchat-Token')
       if(token)
         dispatch(login(token))
       return res
@@ -29,7 +29,7 @@ export const signupRequest = (user) => (dispatch) => {
     .withCredentials()
     .send(user)
     .then(res => {
-      let token = util.cookieFetch('X-Slugchat-Token')
+      let token = util.cookieFetch('X-Mythicchat-Token')
       if(token)
         dispatch(login(token))
       return res
